@@ -42,15 +42,6 @@ public class RectanguloControllerServlet extends HttpServlet {
 		String rutaJSP = "/WEB-INF/jsp/view/rectangulo.jsp";
 		// pasamos los datos al JSP		
 		request.getRequestDispatcher(rutaJSP).forward(request, response);
-				
-		
-		// esto de acá NO corresponder, porque es responsabilidad de la vista
-		/*
-		response.getWriter()
-			.append("Base = "+base+"\n")
-			.append("Altura = "+altura)
-		;
-		*/
 	}
 
 }
